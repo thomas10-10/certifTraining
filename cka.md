@@ -18,6 +18,7 @@ CKA Curriculum
 - [ ] Provision underlying infrastructure to deploy a Kubernetes cluster
 - [ ] Perform a version upgrade on a Kubernetes cluster using Kubeadm
 - [ ] Implement etcd backup and restore
+
 15% - Workloads & Scheduling
 - [ ] Understand deployments and how to perform rolling update and rollbacks
 - [ ] Use ConfigMaps and Secrets to configure applications
