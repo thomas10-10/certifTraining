@@ -3,6 +3,7 @@ cka 2022 1.22
 CKA Curriculum
 
 25% - Cluster Architecture, Installation & Configuration
+- [ ] Alias and completion
 - [ ] Manage role based access control (RBAC)
 - [ ] Use Kubeadm to install a basic cluster
   - [x] install kubeadm https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installation-de-kubeadm-des-kubelets-et-de-kubectl
