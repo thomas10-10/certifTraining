@@ -13,11 +13,11 @@ CKA Curriculum
   - [x] kubeadm init --pod-network-cidr 192.168.0.0/16
   - [x] install cni example calilco in 3.22 ! https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network
   - [ ] join to cluster
-  - [ ] remove taints for execute workload pods on master
+  - [x] remove taints for execute workload pods on master `kubectl taint nodes --all node-role.kubernetes.io/master-`
 - [ ] Manage a highly-available Kubernetes cluster
 - [ ] Provision underlying infrastructure to deploy a Kubernetes cluster
 - [ ] Perform a version upgrade on a Kubernetes cluster using Kubeadm
-- [ ] Implement etcd backup and restore
+- [x] Implement etcd backup and restore https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#isolation-des-n%C5%93uds-du-control-plane
 
 15% - Workloads & Scheduling
 - [ ] Understand deployments and how to perform rolling update and rollbacks
