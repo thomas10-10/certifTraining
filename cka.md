@@ -9,7 +9,7 @@ CKA Curriculum
   - [x] install kubeadm https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installation-de-kubeadm-des-kubelets-et-de-kubectl
   - [x] possibility to fix version `apt install -y kubeadm=1.21.1-00 kubelet=1.21.1-00 kubectl=1.21.1-00`
   - [x] install docker `apt install docker.io` `<3`
-  - [x] verify cgroupfs driver ` sudo docker info | grep -i cgroup  ` else change cgroupfs for docker /etc/docker/daemon.json '{ "exec-opts": ["native.cgroupdriver=systemd"] }' `<3`
+  - [x] verify cgroupfs driver ` sudo docker info | grep -i cgroup  ` else change cgroupfs for docker /etc/docker/daemon.json `{ "exec-opts": ["native.cgroupdriver=systemd"] }` `<3`
   - [x] kubeadm init --pod-network-cidr 192.168.0.0/16
   - [x] install cni example calilco in 3.22 ! https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network
   - [ ] join to cluster https://kubernetes.io/fr/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#join-nodes
